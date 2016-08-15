@@ -22,7 +22,7 @@ public class PasscodeLockPresenter {
         return window
     }()
     
-    private let passcodeConfiguration: PasscodeLockConfigurationType
+    public let passcodeConfiguration: PasscodeLockConfigurationType
     public var isPasscodePresented = false
     public let passcodeLockVC: PasscodeLockViewController
     
